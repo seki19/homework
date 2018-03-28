@@ -2,9 +2,14 @@
 namespace App\Controller;
 
 class TopController extends AppController{
-	public $name = 'top';
-	public $autoRender = false;
+	public function initialize(){
+		$this->name = 'Top';
+		$this->viewBuilder()->autoLayout(true);
+		$this->viewBuilder()->layout('Top');
+	}
+
 	public function index(){
-		echo "hello world";
+		// $this->viewBuilder()->autoLayout(true);
+		// $this->autoRender = true; 
 	}
 }
