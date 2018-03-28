@@ -15,5 +15,18 @@
 	↓できれば↓
 	・TwitterAPIを使用して結果をつぶやく
 
+3スケジュール
+	・top game ranking account ページを今週（30日）までに
+	・4月2~3日にログイン機能とJSゲームを作成
+
 
 	https://github.com/sekiikuya/homework.git
+
+
+	CREATE TABLE `homeworkdb`.`users_table` ( `id` INT NULL , `name` VARCHAR(255) NULL , `password` VARCHAR(255) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+	CREATE TABLE `homeworkdb`.`gamescores_table` ( `user_id` INT NOT NULL DEFAULT '1' , `score` INT NOT NULL , `gamename` VARCHAR(255) NOT NULL , `date` DATE NOT NULL ) ENGINE = InnoDB;
+
+	ALTER TABLE `users_table` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+
+	INSERT INTO `users_table` (`id`, `name`, `password`) VALUES ('1', '名無しさん', 'nanashi');
