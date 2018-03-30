@@ -1,25 +1,38 @@
+/* Webフォント読み込み */
+@font-face {
+	font-family: PixelMplus10-Regular;
+	/*src: url('http://kuneoresearch.com/wp-content/themes/stinger5verkuneo/font/PixelMplus10-Regular.ttf') format("truetype");*/
+}
+
 body{
-	background: #eee;
+
+	background: #FD742F;
 	color:#999;
 	margin:0px 0px;
 }
 
 #header{
-	background: #4abdac;
+	font-family: PixelMplus10-Regular;
+	background: #41B5BB;
+	color:black;
 	font-size: 28px;
 	font-weight: bold;
 	margin: 0px;
 	height: 50px
+	padding:10px 0px;
+}
+.header__twittericon{
+	float: right;
 }
 
 #content{
-	background: #fff;
-	color:#999;
+	background:#FED946;
+	color:black;
 	padding:10px 25px 30px 25px;
 	font-size: 14px;
 }
 #footer{
-	text-align: right;
+	text-align: center;
 	font-size: 12px;
 	margin:10px;
 }
@@ -27,11 +40,12 @@ body{
 h1{
 	/*color:#aaa;*/
 	font-size: 24px;
-	margin:20px 0px 50px 0px;
+	margin:20px 0px 0px 0px;
 }
 
 ul{
 	padding:0px 30px;
+	list-style: none;
 }
 
 .nav__list {
@@ -39,7 +53,23 @@ ul{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-ul{
-	list-style: none;
+.nav__item{
+	flex-basis: 25%;
 }
+
+.nav__item > a {
+	background: #E6F44E;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+  /*padding: 10px 0;*/
+  text-align: center;
+  text-decoration: none;
+}
+.nav__item > a:hover{
+  background:#F94E5B;
+}
+.current > a{
+	background:#F94E5B;
+}
+

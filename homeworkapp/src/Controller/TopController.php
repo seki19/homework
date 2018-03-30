@@ -9,7 +9,8 @@ class TopController extends AppController{
 	}
 
 	public function index(){
-		// $this->viewBuilder()->autoLayout(true);
-		// $this->autoRender = true; 
+		 $this->loadModel('Gamescores');
+		$data = $this->Gamescores->find('all');
+		$this->set('data',$data);
 	}
 }
