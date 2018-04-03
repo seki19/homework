@@ -6,14 +6,14 @@
 
 body{
 
-	background: #FD742F;
+	background: white;
 	color:#999;
 	margin:0px 0px;
 }
 
 #header{
 	font-family: PixelMplus10-Regular;
-	background: #41B5BB;
+	background: #96514d;
 	color:black;
 	font-size: 28px;
 	font-weight: bold;
@@ -26,7 +26,7 @@ body{
 }
 
 #content{
-	background:#FED946;
+	background: #e6b422;
 	color:black;
 	padding:10px 25px 30px 25px;
 	font-size: 14px;
