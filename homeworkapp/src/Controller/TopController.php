@@ -9,7 +9,7 @@ class TopController extends AppController{
 	}
 
 	public function index(){
-		 $this->loadModel('Gamescores');
+		$this->loadModel('Gamescores');
 		$data = $this->Gamescores->find('all');
 		$this->set('data',$data);
 	}

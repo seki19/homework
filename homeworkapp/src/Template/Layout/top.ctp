@@ -17,18 +17,18 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<i class="fas fa-tv"></i>GAME<i class="fas fa-gamepad"></i>
+			<i class="fas fa-tv"></i> GAME <i class="fas fa-gamepad"></i>
 			<span class="header__twittericon">
-				<i class="fab fa-twitter"></i>
+				<!-- <i class="fab fa-twitter"></i> -->
 				<i class="fas fa-sign-in-alt"></i>
 			</span>
 		</div>
 		<div class="nav">
 			<ul class="nav__list">
 				<li class="nav__item current"><a href="">TOP</a></li>
-				<li class="nav__item"><a href="">GAME</a></li>
-				<li class="nav__item"><a href="">RANKING</a></li>
-				<li class="nav__item"><a href="">ACCOUNT</a></li>
+				<li class="nav__item"><a href="/homework/homeworkapp/game/">GAME</a></li>
+				<li class="nav__item"><a href="/homework/homeworkapp/ranking">RANKING</a></li>
+				<li class="nav__item"><a href="/homework/homeworkapp/account">ACCOUNT</a></li>
 			</ul>
 		</div>
 		<div id="content">

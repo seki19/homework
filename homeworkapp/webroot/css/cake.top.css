@@ -13,7 +13,7 @@ body{
 
 #header{
 	font-family: PixelMplus10-Regular;
-	background: #96514d;
+	background: #e62222;
 	color:black;
 	font-size: 28px;
 	font-weight: bold;
@@ -58,7 +58,7 @@ ul{
 }
 
 .nav__item > a {
-	background: #E6F44E;
+	background: gray;
 	text-decoration: none;
 	font-weight: bold;
 	display: block;
@@ -70,6 +70,8 @@ ul{
   background:#F94E5B;
 }
 .current > a{
-	background:#F94E5B;
+	background:#e62222;
 }
 
+.gamecontainer__contents{
+ display: flex;}

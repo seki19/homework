@@ -2,7 +2,7 @@
 <div id="container">
 	<div class="container__log">
 		<h2>最新スコア</h2>
-		<table>
+	<table>
 	<tr>
 		<th>NAME</th>
 		<th>TITLE</th>

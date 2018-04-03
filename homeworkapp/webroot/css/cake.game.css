@@ -1,0 +1,90 @@
+/* Webフォント読み込み */
+@font-face {
+	font-family: PixelMplus10-Regular;
+	/*src: url('http://kuneoresearch.com/wp-content/themes/stinger5verkuneo/font/PixelMplus10-Regular.ttf') format("truetype");*/
+}
+
+body{
+
+	background: white;
+	color:#999;
+	margin:0px 0px;
+}
+
+#header{
+	font-family: PixelMplus10-Regular;
+	background: #e62222;
+	color:black;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0px;
+	height: 50px
+	padding:10px 0px;
+}
+.header__twittericon{
+	float: right;
+}
+
+#content{
+	background: #e6b422;
+	color:black;
+	padding:10px 25px 30px 25px;
+	font-size: 14px;
+}
+#footer{
+	text-align: center;
+	font-size: 12px;
+	margin:10px;
+}
+
+h1{
+	/*color:#aaa;*/
+	font-size: 24px;
+	margin:20px 0px 0px 0px;
+}
+
+ul{
+	padding:0px 30px;
+	list-style: none;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav__item{
+	flex-basis: 25%;
+}
+
+.nav__item > a {
+	background: gray;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+  /*padding: 10px 0;*/
+  text-align: center;
+  text-decoration: none;
+}
+.nav__item > a:hover{
+  background:#F94E5B;
+}
+.current > a{
+	background:#e62222;
+}
+
+.gamecontainer{
+ justify-content:space-around ;
+ display: flex;
+ margin-top: 30px;
+}
+
+#contents__title > h1{
+	text-align: center;
+	/*color: blue;*/
+}
+
+.gamename{
+	font-size: 20px;
+	text-align: center;
+}
