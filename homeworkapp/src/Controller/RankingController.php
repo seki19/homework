@@ -10,6 +10,18 @@ class RankingController extends AppController{
  	public function index(){
  		$this->loadModel('Gamescores');
 		$data = $this->Gamescores->find('all');
-		$this->set('data',$data);
+		$concentrarionscore = $this->Gamescores->find('all',[
+			'conditions'=>[
+				'gamename'=>"神経衰弱"]
+		]);
+		$crabgamescore = $this->Gamescores->find('all',[
+			'conditions'=>[
+				'gamename'=>"かにゲーム"]
+		]);
+		$concentrarionscore->order(['score'=>'DESC']);
+		$crabgamescore->order(['score'=>'DESC']);
+		$this->set('concentrarionscore',$concentrarionscore);
+		$this->set('crabgamescore',$crabgamescore);
+
  	}
 }

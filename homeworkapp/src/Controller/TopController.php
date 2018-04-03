@@ -11,6 +11,7 @@ class TopController extends AppController{
 	public function index(){
 		$this->loadModel('Gamescores');
 		$data = $this->Gamescores->find('all');
+		$data->order(['score'=>'ASC']);
 		$this->set('data',$data);
 	}
 }

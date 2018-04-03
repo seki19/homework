@@ -19,7 +19,6 @@
 		<div id="header">
 			<i class="fas fa-tv"></i> GAME <i class="fas fa-gamepad"></i>
 			<span class="header__twittericon">
-				<!-- <i class="fab fa-twitter"></i> -->
 				<i class="fas fa-sign-in-alt"></i>
 			</span>
 		</div>
@@ -34,7 +33,7 @@
 		<div id="content">
 			<?=$this->fetch('content') ?>
 		</div>
-		<div id="footer"><p>Copyright 2018</p></div>
+		<!-- <div id="footer"><p>Copyright 2018</p></div> -->
 	</div>
 </body>
 </html>
